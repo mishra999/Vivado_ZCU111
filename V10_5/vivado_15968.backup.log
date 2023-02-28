@@ -1,0 +1,239 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Jan 23 16:25:58 2023
+# Process ID: 15968
+# Current directory: D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8200 D:\Work\UH\1_FPGA\1_2022\2_ZCU111\3_Code\V10_5\V10_4.xpr
+# Log file: D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/vivado.log
+# Journal file: D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5\vivado.jou
+# Running On: Aera, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 2, Host memory: 16837 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_usp_rf_data_converter_0_0
+design_1_system_ila_0_0
+
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:33 . Memory (MB): peak = 2225.738 ; gain = 388.273
+open_bd_design {D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:dds_compiler:6.0 - dds_compiler_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps8_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:usp_rf_data_converter:2.6 - usp_rf_data_converter_0
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.2 - util_ds_buf_0
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.2 - util_ds_buf_1
+Adding component instance block -- xilinx.com:ip:vio:3.0 - vio_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.4 - zynq_ultra_ps_e_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+Successfully read diagram <design_1> from block design file <D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 2412.699 ; gain = 159.484
+update_compile_order -fileset sources_1
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {design_1_usp_rf_data_converter_0_0 design_1_system_ila_0_0}] -log ip_upgrade.log
+Upgrading 'D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.srcs/sources_1/bd/design_1/design_1.bd'
+WARNING: [Vivado 12-3647] The given sub-design is not contained in the block fileset 'design_1_system_ila_0_0'. Sub-design: 'D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.srcs/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0.xci'.
+WARNING: [Vivado 12-3647] The given sub-design is not contained in the block fileset 'design_1_usp_rf_data_converter_0_0'. Sub-design: 'D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0_1/design_1_usp_rf_data_converter_0_0.xci'.
+ipx::get_ipfiles: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 2927.762 ; gain = 0.000
+WARNING: [IP_Flow 19-4316] Parameter 'TDATA_NUM_BYTES' is no longer present on the upgraded IP 'design_1_system_ila_0_0', and cannot be set to '2'
+INFO: [IP_Flow 19-3420] Updated design_1_system_ila_0_0 to use current project options
+WARNING: [IP_Flow 19-4316] Parameter 'TDATA_NUM_BYTES' is no longer present on the upgraded IP 'design_1_usp_rf_data_converter_0_0', and cannot be set to '2'
+INFO: [IP_Flow 19-3420] Updated design_1_usp_rf_data_converter_0_0 to use current project options
+INFO: Ultrascale+ RF Data Converter instance: Clock port 'adc0_clk' frequency is set to 92160000
+INFO: Ultrascale+ RF Data Converter instance: Clock port 'adc1_clk' frequency is set to 15625000
+INFO: Ultrascale+ RF Data Converter instance: Clock port 'adc2_clk' frequency is set to 15625000
+INFO: Ultrascale+ RF Data Converter instance: Clock port 'adc3_clk' frequency is set to 15625000
+INFO: Ultrascale+ RF Data Converter instance: Clock port 'dac1_clk' frequency is set to 184320000
+INFO: Ultrascale+ RF Data Converter instance: Clock port 'adc0_clk' frequency is set to 92160000
+INFO: Ultrascale+ RF Data Converter instance: Clock port 'adc1_clk' frequency is set to 15625000
+INFO: Ultrascale+ RF Data Converter instance: Clock port 'adc2_clk' frequency is set to 15625000
+INFO: Ultrascale+ RF Data Converter instance: Clock port 'adc3_clk' frequency is set to 15625000
+INFO: Ultrascale+ RF Data Converter instance: Clock port 'dac1_clk' frequency is set to 184320000
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'design_1_system_ila_0_0' has identified issues that may require user intervention. Please review the upgrade log 'd:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'design_1_usp_rf_data_converter_0_0' has identified issues that may require user intervention. Please review the upgrade log 'd:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Wrote  : <D:\Work\UH\1_FPGA\1_2022\2_ZCU111\3_Code\V10_5\V10_4.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 3009.840 ; gain = 99.742
+export_ip_user_files -of_objects [get_ips {design_1_usp_rf_data_converter_0_0 design_1_system_ila_0_0}] -no_script -sync -force -quiet
+generate_target all [get_files  D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.srcs/sources_1/bd/design_1/design_1.bd]
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s01_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM1_FPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s01_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM1_FPD(16)
+Wrote  : <D:\Work\UH\1_FPGA\1_2022\2_ZCU111\3_Code\V10_5\V10_4.srcs\sources_1\bd\design_1\design_1.bd> 
+VHDL Output written to : d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block usp_rf_data_converter_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_ooc.xdc'
+Exporting to file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0.hwh
+Generated Hardware Definition File d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/design_1_system_ila_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s01_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s01_couplers/auto_pc .
+Exporting to file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/synth/design_1.hwdef
+generate_target: Time (s): cpu = 00:00:34 ; elapsed = 00:01:06 . Memory (MB): peak = 3224.789 ; gain = 214.949
+catch { config_ip_cache -export [get_ips -all design_1_usp_rf_data_converter_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_usp_rf_data_converter_0_0
+catch { config_ip_cache -export [get_ips -all design_1_system_ila_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_system_ila_0_0
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_0
+catch { config_ip_cache -export [get_ips -all design_1_auto_ds_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_ds_0
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_1] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_1
+export_ip_user_files -of_objects [get_files D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs design_1_usp_rf_data_converter_0_0_synth_1 design_1_system_ila_0_0_synth_1 design_1_auto_pc_0_synth_1 design_1_auto_ds_0_synth_1 design_1_auto_pc_1_synth_1 -jobs 2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_usp_rf_data_converter_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_system_ila_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_ds_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_1
+[Mon Jan 23 16:31:29 2023] Launched design_1_usp_rf_data_converter_0_0_synth_1, design_1_system_ila_0_0_synth_1, design_1_auto_pc_0_synth_1, design_1_auto_ds_0_synth_1, design_1_auto_pc_1_synth_1...
+Run output will be captured here:
+design_1_usp_rf_data_converter_0_0_synth_1: D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.runs/design_1_usp_rf_data_converter_0_0_synth_1/runme.log
+design_1_system_ila_0_0_synth_1: D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.runs/design_1_system_ila_0_0_synth_1/runme.log
+design_1_auto_pc_0_synth_1: D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.runs/design_1_auto_pc_0_synth_1/runme.log
+design_1_auto_ds_0_synth_1: D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.runs/design_1_auto_ds_0_synth_1/runme.log
+design_1_auto_pc_1_synth_1: D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.runs/design_1_auto_pc_1_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 3272.945 ; gain = 47.137
+export_simulation -of_objects [get_files D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.srcs/sources_1/bd/design_1/design_1.bd] -directory D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.ip_user_files/sim_scripts -ip_user_files_dir D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.ip_user_files -ipstatic_source_dir D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/compile_simlib/modelsim} {questa=D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/compile_simlib/questa} {riviera=D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/compile_simlib/riviera} {activehdl=D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+validate_bd_design -force
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s00_couplers/auto_pc/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/s01_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM1_FPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/s01_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM1_FPD(16)
+validate_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 3378.801 ; gain = 0.000
+save_bd_design
+Wrote  : <D:\Work\UH\1_FPGA\1_2022\2_ZCU111\3_Code\V10_5\V10_4.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+reset_run design_1_system_ila_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_ooc.xdc'
+Exporting to file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0.hwh
+Generated Hardware Definition File d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/design_1_system_ila_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s01_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s01_couplers/auto_pc .
+Exporting to file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_ds_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_pc_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_system_ila_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_ds_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 17b4c4027d866468 to dir: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/1/7/17b4c4027d866468/design_1_auto_ds_0.dcp to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/1/7/17b4c4027d866468/design_1_auto_ds_0_sim_netlist.v to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/1/7/17b4c4027d866468/design_1_auto_ds_0_sim_netlist.vhdl to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/1/7/17b4c4027d866468/design_1_auto_ds_0_stub.v to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/1/7/17b4c4027d866468/design_1_auto_ds_0_stub.vhdl to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_ds_0, cache-ID = 17b4c4027d866468; cache size = 25.687 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 90cf6c7c82c804de to dir: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/9/0/90cf6c7c82c804de/design_1_auto_pc_0.dcp to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/9/0/90cf6c7c82c804de/design_1_auto_pc_0_sim_netlist.v to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/9/0/90cf6c7c82c804de/design_1_auto_pc_0_sim_netlist.vhdl to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/9/0/90cf6c7c82c804de/design_1_auto_pc_0_stub.v to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/9/0/90cf6c7c82c804de/design_1_auto_pc_0_stub.vhdl to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 90cf6c7c82c804de; cache size = 25.687 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 858267d6409ac468 to dir: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/8/5/858267d6409ac468/design_1_auto_pc_1.dcp to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/8/5/858267d6409ac468/design_1_auto_pc_1_sim_netlist.v to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/8/5/858267d6409ac468/design_1_auto_pc_1_sim_netlist.vhdl to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/8/5/858267d6409ac468/design_1_auto_pc_1_stub.v to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/8/5/858267d6409ac468/design_1_auto_pc_1_stub.vhdl to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_1, cache-ID = 858267d6409ac468; cache size = 25.687 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_system_ila_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 45051486d68bace3 to dir: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/4/5/45051486d68bace3/design_1_system_ila_0_0.dcp to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/4/5/45051486d68bace3/design_1_system_ila_0_0_sim_netlist.v to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/4/5/45051486d68bace3/design_1_system_ila_0_0_sim_netlist.vhdl to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/4/5/45051486d68bace3/design_1_system_ila_0_0_stub.v to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.cache/ip/2022.2/4/5/45051486d68bace3/design_1_system_ila_0_0_stub.vhdl to d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_system_ila_0_0, cache-ID = 45051486d68bace3; cache size = 25.687 MB.
+config_ip_cache: Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 3394.445 ; gain = 0.000
+[Mon Jan 23 17:10:17 2023] Launched synth_1...
+Run output will be captured here: D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.runs/synth_1/runme.log
+[Mon Jan 23 17:10:17 2023] Launched impl_1...
+Run output will be captured here: D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 3394.445 ; gain = 15.645
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 24 08:39:53 2023...

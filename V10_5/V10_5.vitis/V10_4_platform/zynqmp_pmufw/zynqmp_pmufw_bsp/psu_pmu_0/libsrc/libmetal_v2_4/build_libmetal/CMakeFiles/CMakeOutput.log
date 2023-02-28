@@ -1,0 +1,16 @@
+The target system is: Generic -  - microblaze
+The host system is: Windows - 6.2 - AMD64
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_pmu_0/libsrc/libmetal_v2_4/build_libmetal/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Xilinx/Vitis/2022.2/gnuwin/bin/make.exe" "cmTC_dc56b/fast"
+D:/Xilinx/Vitis/2022.2/gnuwin/bin/make.exe -f CMakeFiles/cmTC_dc56b.dir/build.make CMakeFiles/cmTC_dc56b.dir/build
+make.exe[1]: Entering directory 'D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_pmu_0/libsrc/libmetal_v2_4/build_libmetal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc56b.dir/CheckIncludeFiles.c.obj
+D:/Xilinx/Vitis/2022.2/gnu/microblaze/nt/bin/mb-gcc.exe   -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul -mcpu=v9.2  -mlittle-endian -g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns  -Os -flto -ffat-lto-objects -ID:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_pmu_0/include -c   -o CMakeFiles/cmTC_dc56b.dir/CheckIncludeFiles.c.obj   -c D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_pmu_0/libsrc/libmetal_v2_4/build_libmetal/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_dc56b
+D:/Xilinx/Vitis/2022.2/gnu/microblaze/nt/bin/mb-gcc.exe   -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul -mcpu=v9.2  -mlittle-endian -g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns  -Os -flto -ffat-lto-objects -ID:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_pmu_0/include -c    "CMakeFiles/cmTC_dc56b.dir/CheckIncludeFiles.c.obj"   -o cmTC_dc56b  
+microblaze-xilinx-elf-gcc.exe: warning: CMakeFiles/cmTC_dc56b.dir/CheckIncludeFiles.c.obj: linker input file unused because linking not done
+make.exe[1]: Leaving directory 'D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_pmu_0/libsrc/libmetal_v2_4/build_libmetal/CMakeFiles/CMakeTmp'
+
+

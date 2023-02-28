@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_usp_rf_data_converter_0_0_synth_1" LaunchDir="D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.runs/design_1_usp_rf_data_converter_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_system_ila_0_0_synth_1" LaunchDir="D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.runs/design_1_system_ila_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_0_synth_1" LaunchDir="D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.runs/design_1_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ds_0_synth_1" LaunchDir="D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.runs/design_1_auto_ds_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_1_synth_1" LaunchDir="D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_5/V10_4.runs/design_1_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

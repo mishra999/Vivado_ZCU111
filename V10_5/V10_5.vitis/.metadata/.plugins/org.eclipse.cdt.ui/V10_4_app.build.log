@@ -1,0 +1,30 @@
+17:31:48 **** Incremental Build of configuration Debug for project V10_4_app ****
+make all 
+'Building file: ../src/alpha_iic.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DXPS_BOARD_ZCU111 -D__BAREMETAL__ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/alpha_iic.o" -D __BAREMETAL__ -ID:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/export/V10_4_platform/sw/V10_4_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/alpha_iic.d" -MT"src/alpha_iic.o" -o "src/alpha_iic.o" "../src/alpha_iic.c"
+In file included from D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/export/V10_4_platform/sw/V10_4_platform/standalone_domain/bspinclude/include/xil_printf.h:16,
+                 from D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/export/V10_4_platform/sw/V10_4_platform/standalone_domain/bspinclude/include/xil_io.h:49,
+                 from D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/export/V10_4_platform/sw/V10_4_platform/standalone_domain/bspinclude/include/xiicps_hw.h:41,
+                 from D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/export/V10_4_platform/sw/V10_4_platform/standalone_domain/bspinclude/include/xiicps.h:196,
+                 from ../src/alpha_iic.c:27:
+D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/export/V10_4_platform/sw/V10_4_platform/standalone_domain/bspinclude/include/xparameters.h:26: warning: "XPS_BOARD_ZCU111" redefined
+   26 | #define XPS_BOARD_ZCU111
+      | 
+<command-line>: note: this is the location of the previous definition
+'Finished building: ../src/alpha_iic.c'
+' '
+'Building target: V10_4_app.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/export/V10_4_platform/sw/V10_4_platform/standalone_domain/bsplib/lib -o "V10_4_app.elf"  ./src/alpha_iic.o ./src/command_control.o ./src/command_struct.o ./src/helloworld.o ./src/pc_uart.o ./src/platform.o ./src/rfdc_StartUp.o ./src/rfdc_main.o ./src/rfdc_read_write.o ./src/xrfdc_clk.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lgcc,-lc,-lmetal,--end-group
+'Finished building target: V10_4_app.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size V10_4_app.elf  |tee "V10_4_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 215235	  19080	  35245	 269560	  41cf8	V10_4_app.elf
+'Finished building: V10_4_app.elf.size'
+' '
+
+17:31:52 Build Finished (took 4s.419ms)
+

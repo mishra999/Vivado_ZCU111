@@ -1,0 +1,16 @@
+The target system is: Generic -  - arm
+The host system is: Windows - 6.2 - AMD64
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/libsrc/libmetal_v2_4/build_libmetal/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Xilinx/Vitis/2022.2/gnuwin/bin/make.exe" "cmTC_c39ac/fast"
+D:/Xilinx/Vitis/2022.2/gnuwin/bin/make.exe -f CMakeFiles/cmTC_c39ac.dir/build.make CMakeFiles/cmTC_c39ac.dir/build
+make.exe[1]: Entering directory 'D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/libsrc/libmetal_v2_4/build_libmetal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c39ac.dir/CheckIncludeFiles.c.obj
+D:/Xilinx/Vitis/2022.2/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-gcc.exe   -c -g -Wall -Wextra -fno-tree-loop-distribute-patterns -Os -flto -ffat-lto-objects -ID:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/include -c   -o CMakeFiles/cmTC_c39ac.dir/CheckIncludeFiles.c.obj   -c D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/libsrc/libmetal_v2_4/build_libmetal/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c39ac
+D:/Xilinx/Vitis/2022.2/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-gcc.exe   -c -g -Wall -Wextra -fno-tree-loop-distribute-patterns -Os -flto -ffat-lto-objects -ID:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/include -c    "CMakeFiles/cmTC_c39ac.dir/CheckIncludeFiles.c.obj"   -o cmTC_c39ac  
+aarch64-xilinx-elf-gcc.exe: warning: CMakeFiles/cmTC_c39ac.dir/CheckIncludeFiles.c.obj: linker input file unused because linking not done
+make.exe[1]: Leaving directory 'D:/Work/UH/1_FPGA/1_2022/2_ZCU111/3_Code/V10_4/V10_4.vitis/V10_4_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/libsrc/libmetal_v2_4/build_libmetal/CMakeFiles/CMakeTmp'
+
+
